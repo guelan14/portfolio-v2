@@ -41,9 +41,9 @@ td {
 }
 
 .aboutPhotoImg {
-  border-radius: 15%;
+  border-radius: 30px;
   max-width: 150px;
-  background-color: aliceblue;
+  background-color: rgb(50, 69, 85);
 }
 
 .aboutInfo {
@@ -54,4 +54,36 @@ td {
   text-align: start;
   background-color: rgb(232, 232, 232);
   padding: 0px;
+}
+
+#about .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+  gap: 16px;
+  padding: 20px;
+  width: 65%;
+  margin: 0 auto; /* Centra el contenedor en la pantalla */
+  align-items: start;
+}
+#about .grid-item {
+  background-color: rgb(46, 37, 37);
+  color: #0d1b2a;
+  text-align: center;
+  position: relative;
+  padding: 8px 8px 40px 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.5); /* Azul con transparencia */
+  border-radius: 10px;
+  cursor: pointer;
+  height: auto;
+  opacity: 0.9;
+  width: 100%;
+}
+.grid-item ul {
+  list-style: none;
+}
+
+#about .grid-item {
+  color: black;
 }

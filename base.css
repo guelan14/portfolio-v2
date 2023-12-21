@@ -162,10 +162,3 @@ footer span {
   opacity: 0.5;
   font-weight: 200;
 }
-
-.grid-container {
-  display: grid;
-  width: 60%;
-  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-  gap: 16px;
-}
