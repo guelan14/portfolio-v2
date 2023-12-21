@@ -1,0 +1,28 @@
+#home {
+  position: relative;
+  min-height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+#home img {
+  height: 480px;
+}
+
+#home .contenido {
+  background-color: rgba(106, 105, 105, 0.6);
+  border-radius: 20px;
+}
+
+h1 {
+  color: rgb(185, 107, 5);
+  text-align: start;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-bottom: 5px;
+}
