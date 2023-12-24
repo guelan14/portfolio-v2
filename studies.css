@@ -1,5 +1,5 @@
 #studies {
-  background-color: #e0e1dd;
+  background-color: #1b263b;
   color: black;
 }
 
@@ -20,10 +20,10 @@
 #studies .grid-item {
   background-color: rgb(46, 37, 37);
   color: #0d1b2a;
+  width: 270px;
   text-align: center;
   position: relative;
   padding: 8px 8px 40px 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.5); /* Azul con transparencia */
   border-radius: 10px;
   cursor: pointer;

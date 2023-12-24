@@ -80,8 +80,25 @@ button {
   transition: background-color 0.3s ease;
 }
 
+.buttonSecondary {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ededeb; /* Sin color de fondo */
+  color: #333; /* Color del texto */
+  border: 2px solid #ccc; /* Color del borde gris */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
 .button:hover {
   background-color: #cc6600; /* Cambiado a un tono más oscuro al pasar el ratón por encima */
+}
+
+.buttonSecondary:hover {
+  background-color: grey;
 }
 
 button:hover {
@@ -89,7 +106,7 @@ button:hover {
 }
 
 footer {
-  background-color: grey;
+  background-color: #e0e1dd;
 }
 
 p {
@@ -123,10 +140,6 @@ h2 {
   box-sizing: content-box;
 }
 
-.w-container {
-  display: flex;
-}
-
 .seccionTittle {
   padding: 40px;
 }
@@ -138,6 +151,11 @@ h2 {
   margin: 0;
   padding: 0;
   width: 65%;
+}
+
+.f-container {
+  display: flex;
+  width: 100%;
 }
 
 footer {
