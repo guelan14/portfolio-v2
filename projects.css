@@ -24,12 +24,12 @@
 }
 
 .swiper-slide {
-  height: 500px;
+  margin-bottom: 25px;
 }
 
 .projectCard {
   text-align: start;
-  height: 450px;
+  height: 400px;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -38,6 +38,8 @@
   box-shadow: -1px -8px 108px 0px rgba(0, 0, 0, 0.75) inset;
   -webkit-box-shadow: -1px -8px 108px 0px rgba(0, 0, 0, 0.75) inset;
   -moz-box-shadow: -1px -8px 108px 0px rgba(0, 0, 0, 0.75) inset;
+  margin: 20px;
+  border-radius: 25px;
 }
 
 #projects h2 {
@@ -51,6 +53,8 @@
   font-size: 1.4rem;
   text-align: start;
   width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #projects h4 {
@@ -66,23 +70,34 @@
 .projectImg {
   width: 100%;
   height: 100%;
-  position: relative;
   overflow: hidden;
   display: flex;
-  place-content: center;
-  margin-top: 20px;
+  place-content: end;
+  text-align: end;
+  align-items: end;
+
+  position: relative;
 }
 
 .projectImg img {
   object-fit: cover;
   width: 100%; /* Ajusta el ancho de la imagen al del contenedor */
-  transform: translateY(10%); /* Mueve la imagen hacia abajo */
+  position: absolute;
+  transform: translateY(35%); /* Mueve la imagen hacia abajo */
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
+
 .projectLink {
   width: 100%;
   align-items: start;
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
+}
+
+.projectLink a {
+  padding: 5px 10px;
 }
 
 .projectLink ul {
